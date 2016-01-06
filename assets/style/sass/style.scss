@@ -70,6 +70,7 @@
 		    height:210px;
 			img{
 				transition: all .3s ease-in .1s;
+				margin:auto;
 			}
 			.iCaption{
 				position: absolute;
@@ -86,9 +87,7 @@
 			    overflow: hidden;
 				@include trans();
 
-				&:hover{
-					opacity: 1;
-				}
+				
 
 				&:before{
 					content: '';
@@ -130,8 +129,10 @@
 			&:hover{
 				img{
 					@include transform(1.50);
+					margin:auto;
 				}
 				.iCaption{
+					opacity: 1;
 					span{
 						margin-top: 0;
 					}

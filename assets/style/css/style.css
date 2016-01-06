@@ -90,8 +90,9 @@
 /* line 71, ../sass/style.scss */
 #instagram_row.fullwidth a img {
   transition: all .3s ease-in .1s;
+  margin: auto;
 }
-/* line 74, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption {
   position: absolute;
   color: #fff;
@@ -109,11 +110,7 @@
   -o-transition: opacity .5s ease-in .1s;
   transition: opacity .5s ease-in .1s;
 }
-/* line 89, ../sass/style.scss */
-#instagram_row.fullwidth a .iCaption:hover {
-  opacity: 1;
-}
-/* line 93, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption:before {
   content: '';
   height: 100%;
@@ -121,7 +118,7 @@
   display: inline-block;
   vertical-align: middle;
 }
-/* line 101, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption:after {
   content: '';
   height: 100%;
@@ -133,7 +130,7 @@
   filter: alpha(opacity=75);
   transition: background .3s ease-in .1s;
 }
-/* line 114, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption span {
   font-size: 14px;
   vertical-align: middle;
@@ -147,7 +144,7 @@
   -o-transition: margin-top .2s ease .2s;
   transition: margin-top .2s ease .2s;
 }
-/* line 131, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 #instagram_row.fullwidth a:hover img {
   -webkit-transform: scale(1.5);
   /* Safari and Chrome */
@@ -158,18 +155,23 @@
   -o-transform: scale(1.5);
   /* Opera */
   transform: scale(1.5);
+  margin: auto;
 }
-/* line 135, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
+#instagram_row.fullwidth a:hover .iCaption {
+  opacity: 1;
+}
+/* line 136, ../sass/style.scss */
 #instagram_row.fullwidth a:hover .iCaption span {
   margin-top: 0;
 }
-/* line 142, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 #instagram_row .image_container {
   width: 210px;
   height: 210px;
   overflow: hidden;
 }
-/* line 146, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 #instagram_row .image_container:hover {
   -webkit-transform: scale(1);
   /* Safari and Chrome */
