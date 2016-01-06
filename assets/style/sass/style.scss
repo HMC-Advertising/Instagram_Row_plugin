@@ -59,6 +59,18 @@
   		}
  		
 		a{
+			&:hover{
+				img{
+					@include transform(1.50);
+					margin:auto;
+				}
+				.iCaption{
+					opacity: 1;
+					span{
+						margin-top: 0;
+					}
+				}
+			}
 			@include trans();
 			padding: 0;
 		    overflow: hidden;
@@ -73,7 +85,7 @@
 				margin:auto;
 			}
 			.iCaption{
-				position: absolute;
+				position: absolute; 
 			  //  width: 100%;
 			    color: #fff;
 			    //height: 100%;
@@ -91,7 +103,7 @@
 
 				&:before{
 					content: '';
-				    height: 100%;
+				    height: 1px;
 				    width: 1px;
 				    //margin-left: -1px;
 				    display: inline-block;
@@ -102,8 +114,8 @@
 				    height: 100%;
 				    width: 100%;
 				    position: absolute;
-				    //top: 0;
-				    //left: 0;
+				    top: 0;
+				    left: 0;
 				    z-index: 10;
 				  	background: #000;
 				    opacity: .75;
@@ -126,18 +138,7 @@
 	                        transition: margin-top .2s ease .2s;
 	    		}
 			}
-			&:hover{
-				img{
-					@include transform(1.50);
-					margin:auto;
-				}
-				.iCaption{
-					opacity: 1;
-					span{
-						margin-top: 0;
-					}
-				}
-			}
+			
 		}
 	} 
 	.image_container{
