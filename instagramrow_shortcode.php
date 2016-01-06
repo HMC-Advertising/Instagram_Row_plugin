@@ -46,29 +46,29 @@
 						</div>	*/
 
 
-				$output .="
-					<div id='instagram_row' class='fullwidth'>
-					<ul class='instacenter'>
-							
-				";
-				foreach($ijson->data as $inst){
-					$link_src = (isset($inst->link)) ? $inst->link : "";
-					$image_src = (isset($inst->images->standard_resolution->url)) ? $inst->images->standard_resolution->url : "";
-					$caption = (isset($inst->caption->text)) ? $inst->caption->text : "";
-
-					$output .= "<li class='image'><a href='".$link_src."'' target='_blank'>";
-					$output .= "<article class='iCaption'><span>".$caption."</span></article>";
-					$output .= "<img src='".$image_src."''>";
+				$output .="<div id='instagram_row' class='fullwidth'>";
+					$output .= "<ul class='instacenter'>";
 				
-					$caption .= "</a></li>";
-				}			
+						foreach($ijson->data as $inst){
+							$link_src = (isset($inst->link)) ? $inst->link : "";
+							$image_src = (isset($inst->images->standard_resolution->url)) ? $inst->images->standard_resolution->url : "";
+							$caption = (isset($inst->caption->text)) ? $inst->caption->text : "";
 
-				$output .="</ul>
+							$output .= "<li class='image'>";
+								$output .= "<a href='".$link_src."' target='_blank'>";
+									$output .= "<div class='image_container'>";
+										$output .= "<img src='".$image_src."'>";
+										$output .= "<article class='iCaption'>";
+											$output .= "<span>".$caption."</span>";
+										$output .= "</article>";
+									$output .= "</div>";
+								$caption .= "</a>";
+							$output .= "</li>";
+						}			
+					$output .="</ul>";
 					
-				</div>";
+				$output .= "</div>";
 			}
-
-					
 		}
 
 		$output .= "

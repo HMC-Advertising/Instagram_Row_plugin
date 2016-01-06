@@ -1,128 +1,183 @@
-/* line 22, ../sass/style.scss */
+/* line 4, ../sass/style.scss */
 #instagram_row {
   height: 194px;
   margin-bottom: -66px;
   position: relative;
   z-index: 9999999999;
 }
-/* line 28, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 #instagram_row .slick-list {
   overflow: visible !important;
   height: 200px;
 }
-/* line 33, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 #instagram_row li {
   outline: 0 !important;
 }
-/* line 35, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 #instagram_row li a {
   outline: 0 !important;
 }
-/* line 39, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 #instagram_row ul {
   margin-bottom: 0 !important;
 }
-/* line 42, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 #instagram_row .slick-track {
   height: 176px !important;
 }
-/* line 45, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 #instagram_row .instacenter {
   width: 100%;
   height: 200px;
 }
-/* line 52, ../sass/style.scss */
-#instagram_row.fullwidth:hover button {
-  display: block !important;
+/* line 32, ../sass/style.scss */
+#instagram_row.fullwidth {
+  -webkit-transition: opacity .5s ease-in .1s;
+  -moz-transition: opacity .5s ease-in .1s;
+  -ms-transition: opacity .5s ease-in .1s;
+  -o-transition: opacity .5s ease-in .1s;
+  transition: opacity .5s ease-in .1s;
 }
-/* line 56, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
+#instagram_row.fullwidth:hover button {
+  opacity: 1 !important;
+}
+/* line 39, ../sass/style.scss */
 #instagram_row.fullwidth button {
+  -webkit-transition: opacity .5s ease-in .1s;
+  -moz-transition: opacity .5s ease-in .1s;
+  -ms-transition: opacity .5s ease-in .1s;
+  -o-transition: opacity .5s ease-in .1s;
+  transition: opacity .5s ease-in .1s;
   position: absolute;
   height: 181px;
-  top: -8px;
+  top: 0px;
   z-index: 999;
-  display: none !important;
+  opacity: 0 !important;
   background-color: rgba(51, 51, 51, 0.7) !important;
   border: none !important;
-  -webkit-transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
-  transition: all 0.25s ease;
   outline: unset !important;
 }
-/* line 66, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 #instagram_row.fullwidth button.slick-next {
   right: 0;
 }
-/* line 71, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 #instagram_row.fullwidth button.slick-prev {
   left: 0;
 }
-/* line 74, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 #instagram_row.fullwidth button:hover {
   background-color: #333333 !important;
 }
-/* line 80, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 #instagram_row.fullwidth a {
+  -webkit-transition: opacity .5s ease-in .1s;
+  -moz-transition: opacity .5s ease-in .1s;
+  -ms-transition: opacity .5s ease-in .1s;
+  -o-transition: opacity .5s ease-in .1s;
+  transition: opacity .5s ease-in .1s;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
   position: relative;
-  display: inline-block;
-  -webkit-transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-  transform-origin: 50% 100%;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 210px;
 }
-/* line 86, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 #instagram_row.fullwidth a img {
-  z-index: 99;
+  transition: all .3s ease-in .1s;
+}
+/* line 74, ../sass/style.scss */
+#instagram_row.fullwidth a .iCaption {
+  position: absolute;
+  color: #fff;
+  width: 210px;
+  height: 210px;
+  text-align: center;
+  top: 0;
+  font-size: 18px;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-transition: opacity .5s ease-in .1s;
+  -moz-transition: opacity .5s ease-in .1s;
+  -ms-transition: opacity .5s ease-in .1s;
+  -o-transition: opacity .5s ease-in .1s;
+  transition: opacity .5s ease-in .1s;
 }
 /* line 89, ../sass/style.scss */
-#instagram_row.fullwidth a .iCaption {
-  display: none;
-  position: absolute;
-  z-index: 101;
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  width: 100%;
+#instagram_row.fullwidth a .iCaption:hover {
+  opacity: 1;
+}
+/* line 93, ../sass/style.scss */
+#instagram_row.fullwidth a .iCaption:before {
+  content: '';
   height: 100%;
-  top: 0;
-  left: 0;
+  width: 1px;
+  display: inline-block;
+  vertical-align: middle;
 }
-/* line 100, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
+#instagram_row.fullwidth a .iCaption:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  background: #000;
+  opacity: .75;
+  filter: alpha(opacity=75);
+  transition: background .3s ease-in .1s;
+}
+/* line 114, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption span {
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  margin-left: -45px;
-  margin-top: -77px;
   font-size: 14px;
-  padding: 10px;
-  width: 250px;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  z-index: 12;
+  margin-top: -15px;
+  -webkit-transition: margin-top .2s ease .2s;
+  -moz-transition: margin-top .2s ease .2s;
+  -ms-transition: margin-top .2s ease .2s;
+  -o-transition: margin-top .2s ease .2s;
+  transition: margin-top .2s ease .2s;
 }
-/* line 111, ../sass/style.scss */
-#instagram_row.fullwidth a:hover {
-  width: 300px !important;
-  -webkit-transform: scale(1.25);
-  /* Safari and Chrome */
-  -moz-transform: scale(1.25);
-  /* Firefox */
-  -ms-transform: scale(1.25);
-  /* IE 9 */
-  -o-transform: scale(1.25);
-  /* Opera */
-  transform: scale(1.25);
-  z-index: 1000000;
-  position: absolute;
-  overflow: visible !important;
-}
-/* line 117, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 #instagram_row.fullwidth a:hover img {
-  max-height: 600px;
-  z-index: 100;
+  -webkit-transform: scale(1.5);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.5);
+  /* Firefox */
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -o-transform: scale(1.5);
+  /* Opera */
+  transform: scale(1.5);
 }
-/* line 122, ../sass/style.scss */
-#instagram_row.fullwidth a:hover .iCaption {
-  display: block;
+/* line 135, ../sass/style.scss */
+#instagram_row.fullwidth a:hover .iCaption span {
+  margin-top: 0;
+}
+/* line 142, ../sass/style.scss */
+#instagram_row .image_container {
+  width: 210px;
+  height: 210px;
+  overflow: hidden;
+}
+/* line 146, ../sass/style.scss */
+#instagram_row .image_container:hover {
+  -webkit-transform: scale(1);
+  /* Safari and Chrome */
+  -moz-transform: scale(1);
+  /* Firefox */
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -o-transform: scale(1);
+  /* Opera */
+  transform: scale(1);
 }

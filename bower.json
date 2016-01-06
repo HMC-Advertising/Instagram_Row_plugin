@@ -1,10 +1,10 @@
 {
-  "name": "New_WP",
+  "name": "Instagram Plugin",
   "version": "1.0.0",
   "authors": [
     "amanda iaria <amanda@wearehmc.com>"
   ],
-  "description": "New Theme for HMC",
+  "description": "Instagram app",
   "main": "index.php",
   "moduleType": [
     "node"

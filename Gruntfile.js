@@ -84,7 +84,7 @@ module.exports = function (grunt){
     rsync: {
         options: {
             args: ["--verbose"],
-            exclude: [".git*","*.scss","node_modules",".bowerrc", "bower.json", "livereload.js", "Gruntfile.js", ".sass-cache", 'src', 'Main', 'bootstrap/grunt','bootstrap/js','bootstrap/less','bootstrap/fonts' ,'pro', 'build', 'sass','package.js', 'LICENSE' ,'package.json', 'Designs'],
+            exclude: [".git*","node_modules",".bowerrc", "bower.json", "livereload.js", "Gruntfile.js", ".sass-cache", 'src', 'Main', 'bootstrap/grunt','bootstrap/js','bootstrap/less','bootstrap/fonts' ,'pro', 'build','package.js', 'LICENSE' ,'package.json', 'Designs', ".smb*", "theme_pu.php", "sass", "sass/*", "package.json", "readme.md" ],
             recursive: true
         },
         dist: {
