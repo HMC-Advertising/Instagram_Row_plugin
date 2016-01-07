@@ -133,8 +133,9 @@
   -o-transition: opacity .5s ease-in .1s;
   transition: opacity .5s ease-in .1s;
   padding: 20px;
+  padding-top: 10px;
 }
-/* line 110, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption:before {
   content: '';
   height: 1px;
@@ -142,7 +143,7 @@
   display: inline-block;
   vertical-align: middle;
 }
-/* line 118, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption:after {
   content: '';
   height: 100%;
@@ -157,7 +158,7 @@
   transition: background .3s ease-in .1s;
   overflow: hidden;
 }
-/* line 132, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption span {
   font-size: 14px;
   vertical-align: middle;
@@ -172,13 +173,13 @@
   -o-transition: margin-top .2s ease .2s;
   transition: margin-top .2s ease .2s;
 }
-/* line 151, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 #instagram_row .image_container {
   width: 210px;
   height: 210px;
   overflow: hidden;
 }
-/* line 155, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 #instagram_row .image_container:hover {
   -webkit-transform: scale(1);
   /* Safari and Chrome */
