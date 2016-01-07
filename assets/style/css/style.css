@@ -1,37 +1,44 @@
 /* line 4, ../sass/style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, ../sass/style.scss */
 #instagram_row {
   height: 194px;
   margin-bottom: -66px;
   position: relative;
   z-index: 9999999999;
 }
-/* line 10, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 #instagram_row .slick-list {
   overflow: visible !important;
   height: 200px;
 }
-/* line 15, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 #instagram_row li {
   outline: 0 !important;
 }
-/* line 17, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 #instagram_row li a {
   outline: 0 !important;
 }
-/* line 21, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 #instagram_row ul {
   margin-bottom: 0 !important;
 }
-/* line 24, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 #instagram_row .slick-track {
   height: 176px !important;
 }
-/* line 27, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 #instagram_row .instacenter {
   width: 100%;
   height: 200px;
 }
-/* line 32, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 #instagram_row.fullwidth {
   -webkit-transition: opacity .5s ease-in .1s;
   -moz-transition: opacity .5s ease-in .1s;
@@ -39,11 +46,11 @@
   -o-transition: opacity .5s ease-in .1s;
   transition: opacity .5s ease-in .1s;
 }
-/* line 35, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 #instagram_row.fullwidth:hover button {
   opacity: 1 !important;
 }
-/* line 39, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 #instagram_row.fullwidth button {
   -webkit-transition: opacity .5s ease-in .1s;
   -moz-transition: opacity .5s ease-in .1s;
@@ -59,19 +66,19 @@
   border: none !important;
   outline: unset !important;
 }
-/* line 49, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 #instagram_row.fullwidth button.slick-next {
   right: 0;
 }
-/* line 52, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 #instagram_row.fullwidth button.slick-prev {
   left: 0;
 }
-/* line 55, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 #instagram_row.fullwidth button:hover {
   background-color: #333333 !important;
 }
-/* line 61, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 #instagram_row.fullwidth a {
   -webkit-transition: opacity .5s ease-in .1s;
   -moz-transition: opacity .5s ease-in .1s;
@@ -87,7 +94,7 @@
   padding-right: 0;
   height: 210px;
 }
-/* line 63, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 #instagram_row.fullwidth a:hover img {
   -webkit-transform: scale(1.5);
   /* Safari and Chrome */
@@ -100,20 +107,20 @@
   transform: scale(1.5);
   margin: auto;
 }
-/* line 67, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 #instagram_row.fullwidth a:hover .iCaption {
   opacity: 1;
 }
-/* line 69, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 #instagram_row.fullwidth a:hover .iCaption span {
   margin-top: 0;
 }
-/* line 83, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 #instagram_row.fullwidth a img {
   transition: all .3s ease-in .1s;
   margin: auto;
 }
-/* line 87, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption {
   position: absolute;
   color: #fff;
@@ -132,7 +139,7 @@
   transition: opacity .5s ease-in .1s;
   padding: 20px;
 }
-/* line 105, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption:before {
   content: '';
   height: 1px;
@@ -140,7 +147,7 @@
   display: inline-block;
   vertical-align: middle;
 }
-/* line 113, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption:after {
   content: '';
   height: 100%;
@@ -154,7 +161,7 @@
   filter: alpha(opacity=75);
   transition: background .3s ease-in .1s;
 }
-/* line 126, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption span {
   font-size: 14px;
   vertical-align: middle;
@@ -167,13 +174,13 @@
   -o-transition: margin-top .2s ease .2s;
   transition: margin-top .2s ease .2s;
 }
-/* line 145, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 #instagram_row .image_container {
   width: 210px;
   height: 210px;
   overflow: hidden;
 }
-/* line 149, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 #instagram_row .image_container:hover {
   -webkit-transform: scale(1);
   /* Safari and Chrome */
