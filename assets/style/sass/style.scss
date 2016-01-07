@@ -16,6 +16,8 @@
 	}
 	li{
 		outline: 0 !important;
+		overflow: hidden;
+		height:210px
 		a{
 			outline: 0 !important;
 		}
@@ -92,7 +94,7 @@
 			    color: #fff;
 			    //height: 100%;
 			    width:210px;
-			    height:210px;
+			    height:230px;
 			    text-align: center;
 			    top: 0;
 			    font-size: 18px;

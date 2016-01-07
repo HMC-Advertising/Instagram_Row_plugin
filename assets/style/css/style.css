@@ -13,25 +13,24 @@
 /* line 17, ../sass/style.scss */
 #instagram_row li {
   outline: 0 !important;
+  overflow: hidden;
+  height: 210px a;
+  height-outline: 0 !important;
 }
-/* line 19, ../sass/style.scss */
-#instagram_row li a {
-  outline: 0 !important;
-}
-/* line 23, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 #instagram_row ul {
   margin-bottom: 0 !important;
 }
-/* line 26, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 #instagram_row .slick-track {
   height: 176px !important;
 }
-/* line 29, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 #instagram_row .instacenter {
   width: 100%;
   height: 200px;
 }
-/* line 34, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 #instagram_row.fullwidth {
   -webkit-transition: opacity .5s ease-in .1s;
   -moz-transition: opacity .5s ease-in .1s;
@@ -39,11 +38,11 @@
   -o-transition: opacity .5s ease-in .1s;
   transition: opacity .5s ease-in .1s;
 }
-/* line 37, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 #instagram_row.fullwidth:hover button {
   opacity: 1 !important;
 }
-/* line 41, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 #instagram_row.fullwidth button {
   -webkit-transition: opacity .5s ease-in .1s;
   -moz-transition: opacity .5s ease-in .1s;
@@ -59,19 +58,19 @@
   border: none !important;
   outline: unset !important;
 }
-/* line 51, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 #instagram_row.fullwidth button.slick-next {
   right: 0;
 }
-/* line 54, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 #instagram_row.fullwidth button.slick-prev {
   left: 0;
 }
-/* line 57, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 #instagram_row.fullwidth button:hover {
   background-color: #333333 !important;
 }
-/* line 63, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 #instagram_row.fullwidth a {
   -webkit-transition: opacity .5s ease-in .1s;
   -moz-transition: opacity .5s ease-in .1s;
@@ -87,7 +86,7 @@
   padding-right: 0;
   height: 210px;
 }
-/* line 65, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 #instagram_row.fullwidth a:hover img {
   -webkit-transform: scale(1.5);
   /* Safari and Chrome */
@@ -100,25 +99,25 @@
   transform: scale(1.5);
   margin: auto;
 }
-/* line 69, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 #instagram_row.fullwidth a:hover .iCaption {
   opacity: 1;
 }
-/* line 71, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 #instagram_row.fullwidth a:hover .iCaption span {
   margin-top: 0;
 }
-/* line 85, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 #instagram_row.fullwidth a img {
   transition: all .3s ease-in .1s;
   margin: auto;
 }
-/* line 89, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption {
   position: absolute;
   color: #fff;
   width: 210px;
-  height: 210px;
+  height: 230px;
   text-align: center;
   top: 0;
   font-size: 18px;
@@ -132,7 +131,7 @@
   transition: opacity .5s ease-in .1s;
   padding: 20px;
 }
-/* line 107, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption:before {
   content: '';
   height: 1px;
@@ -140,7 +139,7 @@
   display: inline-block;
   vertical-align: middle;
 }
-/* line 115, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption:after {
   content: '';
   height: 100%;
@@ -155,7 +154,7 @@
   transition: background .3s ease-in .1s;
   overflow: hidden;
 }
-/* line 129, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 #instagram_row.fullwidth a .iCaption span {
   font-size: 14px;
   vertical-align: middle;
@@ -170,13 +169,13 @@
   -o-transition: margin-top .2s ease .2s;
   transition: margin-top .2s ease .2s;
 }
-/* line 148, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 #instagram_row .image_container {
   width: 210px;
   height: 210px;
   overflow: hidden;
 }
-/* line 152, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 #instagram_row .image_container:hover {
   -webkit-transform: scale(1);
   /* Safari and Chrome */
