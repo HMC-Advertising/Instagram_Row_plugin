@@ -1,6 +1,6 @@
 <?php
 /*
-	Plugin Name: Instagram Row - non productions
+	Plugin Name: Instagram Row
 	Author: Amanda Iaria
 	Version: 1.0
 

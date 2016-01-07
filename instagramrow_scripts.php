@@ -6,7 +6,7 @@ function theme_name_scripts() {
 	
 	wp_enqueue_script( 'script-name', plugins_url('assets/script/build/build.js', __FILE__) , array(), '1.0.0', true );
 
-	wp_enqueue_script( 'slick-script', plugins_url("assets/script/plugins/slick-carousel/slick/slick.js", __FILE__)  , array(), '1.0.0', false );
+	//wp_enqueue_script( 'slick-script', plugins_url("assets/script/plugins/slick-carousel/slick/slick.js", __FILE__)  , array(), '1.0.0', false );
 
 	wp_enqueue_style( 'slick-style', 'http://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.css' );
 	
