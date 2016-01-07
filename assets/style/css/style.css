@@ -104,10 +104,6 @@
 #instagram_row.fullwidth a:hover .iCaption {
   opacity: 1;
 }
-/* line 69, ../sass/style.scss */
-#instagram_row.fullwidth a:hover .iCaption span {
-  margin-top: 0;
-}
 /* line 83, ../sass/style.scss */
 #instagram_row.fullwidth a img {
   transition: all .3s ease-in .1s;
