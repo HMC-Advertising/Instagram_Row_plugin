@@ -71,7 +71,7 @@
 			}
 		}
 
-		$output .= "
+		/*$output .= "
 			<script type='text/javascript'>
 				var $ = jQuery;
 
@@ -110,7 +110,7 @@
 					});
 				
 			</script>
-		";
+		";*/
 
 		return $output;	
 	}
