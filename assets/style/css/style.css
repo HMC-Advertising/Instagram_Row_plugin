@@ -14,8 +14,7 @@
 #instagram_row li {
   outline: 0 !important;
   overflow: hidden;
-  height: 210px;
-  width: 210px !important;
+  height: 195px;
 }
 /* line 22, ../sass/style.scss */
 #instagram_row li a {
@@ -88,7 +87,7 @@
   min-height: 1px;
   padding-left: 0;
   padding-right: 0;
-  height: 210px;
+  height: 195px;
 }
 /* line 68, ../sass/style.scss */
 #instagram_row.fullwidth a:hover img {
@@ -120,7 +119,7 @@
 #instagram_row.fullwidth a .iCaption {
   position: absolute;
   color: #fff;
-  width: 210px;
+  width: 195px;
   height: 230px;
   text-align: center;
   top: 0;

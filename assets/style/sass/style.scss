@@ -17,8 +17,8 @@
 	li{
 		outline: 0 !important;
 		overflow: hidden;
-		height:210px;
-		width:210px !important; 
+		height:195px;
+		//width:210px !important; 
 		a{
 			outline: 0 !important;
 		}
@@ -84,7 +84,7 @@
 		    min-height: 1px;
 		    padding-left: 0;
 		    padding-right: 0;
-		    height:210px;
+		    height:195px;
 			img{
 				transition: all .3s ease-in .1s;
 				margin:auto;
@@ -94,7 +94,7 @@
 			  //  width: 100%;
 			    color: #fff;
 			    //height: 100%;
-			    width:210px;
+			    width:195px;
 			    height:230px;
 			    text-align: center;
 			    top: 0;
@@ -137,7 +137,7 @@
 				    z-index: 12;
 				    overflow: hidden;
 				   	margin-top: -15px;
-				    //padding: 15px;
+				    //padding: 15px; 
 				    
 				    -webkit-transition: margin-top .2s ease .2s;
 	                   -moz-transition: margin-top .2s ease .2s;
