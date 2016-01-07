@@ -54,16 +54,14 @@
 							$image_src = (isset($inst->images->standard_resolution->url)) ? $inst->images->standard_resolution->url : "";
 							$caption = (isset($inst->caption->text)) ? $inst->caption->text : "";
 
-							$output .= "<li class='image'>";
-								$output .= "<a href='".$link_src."' target='_blank'>";
+							$output .= "<li class='image'><a href='".$link_src."' target='_blank'>";
 									$output .= "<div class='image_container'>";
 										$output .= "<img src='".$image_src."'>";
 										$output .= "<article class='iCaption'>";
 											$output .= "<span>".$caption."</span>";
 										$output .= "</article>";
 									$output .= "</div>";
-								$caption .= "</a>";
-							$output .= "</li>";
+								$caption .= "</a></li>";
 						}			
 					$output .="</ul>";
 					
