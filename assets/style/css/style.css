@@ -14,8 +14,11 @@
 #instagram_row li {
   outline: 0 !important;
   overflow: hidden;
-  height: 210px a;
-  height-outline: 0 !important;
+  height: 210px;
+}
+/* line 21, ../sass/style.scss */
+#instagram_row li a {
+  outline: 0 !important;
 }
 /* line 25, ../sass/style.scss */
 #instagram_row ul {
